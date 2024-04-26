@@ -1,0 +1,55 @@
+.home-container {
+  position: relative;
+  text-align: center; /* Adjusted to center text */
+  color: white;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container h5 {
+  font-size: 1.5rem;
+}
+
+.text-container h1 {
+  font-size: 3rem;
+}
+
+.text-container p {
+  font-size: 2rem;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the social icons */
+  margin-top: 20px; /* Added margin for spacing */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.white-button {
+  color: #197919f2;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.white-button :hover {
+  color: #197919f2;
+}
+img {
+  width: 100%; /* Adjusted image width */
+  max-width: 100%;
+  height: auto;
+}

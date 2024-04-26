@@ -1,0 +1,58 @@
+/* Contact.css */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+
+.contact-header {
+  margin-bottom: 50px;
+}
+
+.contact-header h1 {
+  margin-bottom: 10px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSection,
+.rightSection {
+  flex-basis: 48%;
+}
+
+.contact-image {
+  width: 80%;
+}
+
+.rightSection {
+  background-color: #197919f2;
+  padding: 20px;
+}
+
+.form-container {
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  color: #197919f2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #197919f2;
+  color: white;
+}

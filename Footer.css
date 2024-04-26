@@ -1,0 +1,14 @@
+.footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  padding: 20px;
+  text-align: center;
+  color: 2a2a2a;
+}
+.footer p {
+  margin: 5px 0;
+}
+
+.footer hr {
+  border-color: #fff; /* Color of the horizontal rule */
+  margin: 0; /* Remove default margin */
+}

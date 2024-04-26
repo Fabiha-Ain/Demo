@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar ul li a.active {
+  color: #555;
+}
+
+.logo {
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+  color: #333; /* Change color here */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar ul li a:hover {
+  color: #313131; /* Change hover color here */
+}
